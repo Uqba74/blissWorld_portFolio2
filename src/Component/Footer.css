@@ -1,0 +1,130 @@
+.footer-one {
+    display: flex;
+    justify-content: space-between;
+    height: 7vh;
+    background: linear-gradient(270.11deg, #BBA6DD 0.1%, #EFBFE6 99.91%);
+    
+  align-items: center;
+  }
+  
+  .footer-one-child {
+    flex-basis: 48%; /* Adjust this value to control the width of the children */
+    text-align: center;
+    font-weight: 500;
+  font-size: 23px;
+  letter-spacing: 0.5px;
+  text-align: center;
+  color: #000000;
+    /* Add any other styles you need for the children */
+  }
+
+  .footer-two {
+    display: flex;
+    /* Add any other styles you need for the main container */
+  }
+  
+ 
+  .footer-two-90 {
+    width: 92%;
+    background-color: #8cd0e3 !important;
+    padding: 75px 0 20px;
+  }
+  
+  .footer-two-10 {
+    width: 8%;
+    background-color: #DFDDEB; 
+    padding: 1rem 0;
+  }
+  .footer-two-subchild{
+    padding: 0 80px;
+  }
+  .footer-two-subchild-Inner{
+    width: 100%;
+  }
+  .footer-two-block{
+    padding: 0px 20px;
+    margin-top: 0px;
+    margin-bottom: 50px;
+
+  }
+  .footer-block-title{
+    text-align: left;
+    font-size: 25px;
+    font-weight: 500;
+    margin-bottom: 20px;
+    color: rgb(0, 0, 0);
+    font-family: "Cera Stencil Pro", Montserrat, sans-serif;
+    text-transform: uppercase;
+  }
+  .footer-list{
+    list-style: none;
+    padding: 0px;
+    margin: 0px;
+  }
+  .footer-list-item{
+    position: relative;
+    display: block;
+    margin-bottom: 5px;
+    width: 100%;
+    line-height: 1.5;
+    text-align: left;
+    transition: all 0.2s ease-in-out 0s;
+  }
+  .footer-input{
+    width: 430px !important;
+    margin-right: 0px !important;
+  }
+  .footer-input form{
+    display: flex;
+    flex-direction: row;
+    box-sizing: border-box;
+    border-width: 0px;
+    padding: 0px;
+    margin: 0px !important;
+  }
+  .footer-input form input, .footer-input form button{
+    border: 1px solid #000;
+    border-radius: 0px !important;
+    padding: 12px 10px;
+    font-size: 15px;
+    width: 90% !important;
+  }
+  .footer-input form button{
+    margin-left: 5px;
+    padding: 12px 10px;
+    background-color: #ffffff;
+    width: 30% !important;
+  }
+  .footer-after-form p{
+    font-size: 13px;
+  }
+  .footer-after-form{
+    width: 100%;
+    display: inline-flex;
+    margin-top: 10px;
+
+  }
+  .footer-two-subchild-Inner{
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    margin-left: -40px;
+  }
+  .font-bold{
+    font-weight: 700;
+  }
+  .footer-icon{
+    max-width: 32px;
+    display: block;
+    margin-bottom: 1rem;
+    text-align: center;
+  }
+  .footer-icon-main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .footer-brand-logo{
+    max-width: 78px;
+    height: auto;
+  }

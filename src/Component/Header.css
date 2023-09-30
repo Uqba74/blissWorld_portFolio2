@@ -1,0 +1,114 @@
+.subHeader {
+  height: 6vh;
+  background: linear-gradient(270.11deg, #bba6dd 0.1%, #efbfe6 99.91%);
+}
+.subHeader {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.subHeader p {
+  font-weight: 500;
+  font-size: 16px;
+  letter-spacing: 0.5px;
+  text-align: center;
+  margin-bottom: 0px;
+  color: #000000;
+}
+.mainHead {
+  padding: 18px 30px;
+  background-color: #8cd0e3 !important;
+  display: flex;
+  /* align-items: center; */
+  justify-content: space-around;
+}
+
+.logo-sec {
+  /* display: flex; */
+  /* text-align: center; */
+  margin-left: 700px !important;
+}
+
+.header-logo {
+  position: relative;
+  margin-bottom: 0px;
+}
+.header-logoLink {
+  text-align: center;
+  display: block;
+}
+
+.Header__LogoImage {
+  max-width: 100%;
+  margin: 0 auto;
+  display: block;
+}
+
+.webName {
+  width: 100%;
+}
+.HorizontalList {
+  list-style: none;
+  margin: -6px -8px;
+}
+.HorizontalList__Item {
+  display: inline-block;
+  margin: 6px 8px 0;
+}
+.HorizontalList__Item a {
+  color: #000;
+  letter-spacing: normal;
+  font-weight: 500;
+  font-style: normal;
+  background-color: transparent;
+  text-decoration: none;
+  font-size: 16px;
+}
+.main-Nav {
+  display: flex;
+  justify-content: space-around;
+  /* padding-bottom: 0px; */
+  margin-top: -8px;
+  margin-bottom: -10px;
+  background-color: #8cd0e3 !important;
+}
+.icon-sec {
+  margin-left: 22px !important;
+}
+.header-icon {
+  margin-left: 550px;
+}
+.navbar-collapse {
+  text-align: center;
+}
+.search-form {
+  position: absolute;
+  top: 115%;
+  right: 7%;
+  background: #fff;
+  width: 100rem;
+  height: 5rem;
+  display: flex;
+  align-items: center;
+  transform: scaleY(0);
+  transform-origin: top;
+}
+.search-form.active {
+  transform: scaleY(1);
+}
+.search-form input {
+  height: 100%;
+  width: 100%;
+  font-size: 1.6rem;
+  color: #13131a;
+  padding: 1rem;
+  text-transform: none;
+  border: none;
+}
+.search-form label {
+  cursor: pointer;
+  font-size: 2.2rem;
+  margin-right: 1.5rem;
+  color: #13131a;
+}
